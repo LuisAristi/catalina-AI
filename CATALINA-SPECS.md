@@ -11,12 +11,14 @@ Catalina permite a las personas volcar todas sus tareas sin ningún orden, y se 
 ### Paso 1 — Captura libre
 - La persona escribe sus tareas sin orden, mezcladas, como le vengan a la mente.
 - Si un solo mensaje contiene varias tareas mezcladas, **Catalina las separa automáticamente** en tareas individuales, sin necesidad de confirmación en este paso.
+- se permite ingresar tareas manualmente
 
 ### Paso 2 — Ordenar e interpretar importancia
 Catalina prioriza las tareas según:
 - **Fechas o plazos mencionados** (explícitos o implícitos, ej. "mañana", "antes del viernes")
 - **Tipo de tarea** (dinero, salud, trabajo, etc. pesan más que tareas personales menores)
 - Cuando no hay pistas claras de importancia, **Catalina pregunta directamente** a la persona.
+- las tareas tienen un tamano determinado en la ventana principal dependiendo de su importancia, el usuario **decidira** visualizacion segun preferencia
 
 ### Paso 3 — Confirmar
 - Catalina muestra el orden propuesto como una sugerencia.
@@ -41,6 +43,7 @@ Catalina prioriza las tareas según:
 
 - **Al completar una tarea:** Catalina envía un mensaje de ánimo/felicitación.
 - **Resumen diario:** al final del día, Catalina entrega un resumen de lo logrado.
+- los resumenes creados se guardan.
 - **Si una tarea no se completa a tiempo:** Catalina pregunta por qué y ayuda a la persona a replanificarla (no la pasa automáticamente al día siguiente sin más, ni la marca como atrasada sin conversación).
 
 ---
@@ -59,10 +62,13 @@ Catalina prioriza las tareas según:
 
 ---
 
-## 7. Pendientes por definir
+## 7. guardado de informacion
+
+- es posible que se quiera tener la informacion guardada en la nube para acceso en diferentes dispositivos, igual esto es por hobby.
+- la informacion sera guardada en local.
+
+## 8 Pendientes por definir
 
 Espacios para seguir completando en próximas sesiones:
 - [ ] Casos de uso / ejemplos de conversación completos
-- [ ] Cómo maneja tareas compartidas o delegadas a otras personas (si aplica)
-- [ ] Integraciones con otras herramientas (calendario, apps de terceros)
 - [ ] Qué pasa si la persona ignora repetidamente los pop-ups

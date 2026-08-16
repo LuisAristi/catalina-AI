@@ -1,3 +1,9 @@
+mod models;
+mod repository;
+
+pub use models::tarea::Tarea;
+pub use repository::tarea::TareaRepository;
+
 // Learn more about Tauri commands at https://tauri.app/develop/calling-rust/
 #[tauri::command]
 fn greet(name: &str) -> String {
